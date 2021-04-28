@@ -2,28 +2,55 @@
   box-sizing: border-box;
 }
 h1 {
-  margin-bottom: 15px
+    margin-bottom: 15px
+
 }
 p {
-  border: 1px solid green;
-  background-color: #7533FF;
-  width: 90%;
-  height: 150px;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Helvitica;
-  color: white;
+  border: 1px solid black;
+  background-color: lightgray;
+  font-family: arial;
+  color: black;
+  text-align: justify;
+  height:50vh;
+  padding: 42px 20px 20px 20px;
+  margin-right: 15px;
+
 }
 
 .row {
   width: 100%;
+  position: relative;
 }
 
+.section-title {
+  
+  height: 40px;
+  background-color: gray;
+  font-size: 130%;
+  text-align: center;
+  float: right;
+  border: 2px solid black;
+  position: relative;
+  top: 17px;
+  right: 16px;
+}
+
+.dan {
+  background-color: red;
+}
+
+.cold {
+  background-color: yellow;
+}
+
+.beef {
+  background-color: orange;
+}
 /********** Large devices only **********/
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: left;
-    border: 1px solid green;
+     float: left;
+
   }
   .col-lg-1 {
     width: 8.33%;
@@ -67,7 +94,7 @@ p {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border: 1px solid green;
+
   }
   .col-md-1 {
     width: 8.33%;
@@ -110,7 +137,7 @@ p {
 @media (max-width: 767px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-lg-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
-    border: 1px solid green;
+
   }
   .col-sm-1 {
     width: 8.33%;
